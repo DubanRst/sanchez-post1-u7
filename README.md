@@ -47,14 +47,14 @@ Para probar el pago en línea sin pasarelas reales: `java herramientas\Simulador
 |---|---|
 | GET /api/multas (lista vacía, 200) | ![GET vacío](docs/01-get-vacio.png) |
 | POST /api/multas (201, monto calculado) | ![POST 201](docs/02-post-201.png) |
-| POST sin estudianteId (400) | ![POST 400](docs/03-post-400.png) |
-| GET /api/multas/999 (404) | ![GET 404](docs/04-get-404.png) |
-| PATCH pagar (200) y repetido (409) | ![Pagar](docs/05-pagar-200-y-409.png) |
-| Cuarta multa pendiente (409) | ![Límite](docs/06-limite-409.png) |
-| Pago en línea con PagosUDES (200) | ![PagosUDES](docs/07-pago-linea-pagosudes-200.png) |
-| Pago en línea repetido (409) | ![Repetido](docs/08-pago-linea-409.png) |
-| Pago rechazado por la pasarela (402) | ![Rechazo](docs/09-pago-linea-402.png) |
-| Pago en línea con Wompi (200) | ![Wompi](docs/10-pago-linea-wompi-200.png) |
+| POST sin estudianteId (400) | ![POST 400](docs/03.png) |
+| GET /api/multas/999 (404) | ![GET 404](docs/04.png) |
+| PATCH pagar (200) y repetido (409) | ![Pagar](docs/05.png) |
+| Cuarta multa pendiente (409) | ![Límite](docs/06.png) |
+| Pago en línea con PagosUDES (200) | ![PagosUDES](docs/03.png) |
+| Pago en línea repetido (409) | ![Repetido](docs/04.png) |
+| Pago rechazado por la pasarela (402) | ![Rechazo](docs/05.png) |
+| Pago en línea con Wompi (200) | ![Wompi](docs/06.png) |
 
 ## Herramientas utilizadas
 
